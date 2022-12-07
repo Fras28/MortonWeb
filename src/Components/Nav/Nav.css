@@ -34,16 +34,13 @@
 }
 
 @media (max-width: 1000px) {
-  .logoNav {
-    left: 84.5%;
-  }
   .semicircle::before {
-    width: 100px;
+    left: 89%;
   }
 }
 @media (max-width: 600px) {
   .logoNav {
-    left: 80%;
+    left: 79.5%;
     margin-top: 25px;
   }
 
@@ -55,6 +52,7 @@
   }
   .semicircle::before {
     z-index: 10;
+    left: 86%;
     width: 80px;
     height: 70px;
     background: #2c3e50;

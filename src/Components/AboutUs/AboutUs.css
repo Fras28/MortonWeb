@@ -9,8 +9,9 @@
     background: #cee3f8;
     z-index: 0;
     transform: skewY(-4deg);
-    transform-origin: top right;
-    overflow: hidden;
+    transform-origin: top ;
+    overflow: scroll;
+    
 }
 .aboutUs>p{
     margin-top: 10%;
@@ -21,10 +22,14 @@
     font-weight: 800;
     padding: 0 2rem 0 2rem;
   }
+  ::-webkit-scrollbar {
+    display: none;
+}
 
   @media (max-width: 600px) {
     .aboutUs {
-        top: 400vh;
+        top: 380vh;
+        width: 100%;
      
     }
   }
