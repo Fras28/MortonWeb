@@ -26,11 +26,12 @@
     display: none;
 }
 
-  @media (max-width: 600px) {
-    .aboutUs {
-        top: 380vh;
-        width: 100%;
-     
-    }
+
+ 
+
+@media (max-width: 900px) {
+  .aboutUs {
+      top: 320vh;
+      width: 100%;
   }
-  
+}

@@ -41,7 +41,7 @@
 @media (max-width: 600px) {
   .logoNav {
     left: 79.5%;
-    margin-top: 25px;
+    margin-top: 45px;
   }
 
   .titNaV {
@@ -49,6 +49,7 @@
   }
   .semicircle {
     background-color: transparent;
+    top: 0;
   }
   .semicircle::before {
     z-index: 10;
