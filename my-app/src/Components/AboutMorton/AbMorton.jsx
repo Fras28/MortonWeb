@@ -7,7 +7,11 @@ export const AbMorton = ()=>{
    
 
 return (
-  <div className="morty">
+  <div className="morty"> 
+  <div className="infoAbMorty">
+      <p className="textAb">Un poco de informacion del funcionamiento y la adaptabilidad estetica de la aplicacion</p>
+    </div>
+    <div className="aboutCards">
 <div className="card"  data-aos="fade-right"
      data-aos-offset="300"
      data-aos-easing="ease-in-sine">
@@ -52,6 +56,8 @@ return (
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
   </div>
 </div>
+    </div>
+   
   </div>
 )
 }

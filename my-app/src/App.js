@@ -1,6 +1,7 @@
 
 import './App.css';
 import { AbMorton } from './Components/AboutMorton/AbMorton';
+import { AboutUs } from './Components/AboutUs/AboutUs';
 import { Header } from './Components/Header/Header';
 import { Nav } from './Components/Nav/Nav';
 
@@ -10,7 +11,7 @@ function App() {
 <Nav/>
 <Header/>
 <AbMorton/>
-   <h1 >HOLAAAAAAAA</h1>
+<AboutUs/>
     </div>
   );
 }
