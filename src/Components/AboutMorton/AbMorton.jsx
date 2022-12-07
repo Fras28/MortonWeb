@@ -9,7 +9,7 @@ export const AbMorton = ()=>{
 return (
   <div className="morty"> 
   <div className="infoAbMorty">
-      <p className="textAb">Un poco de informacion del funcionamiento y la adaptabilidad estetica de la aplicacion</p>
+      <p className="textAb">Command Generator<br/> Que la tecnologia solucione la gestion</p>
     </div>
     <div className="aboutCards">
 <div className="card c1"  data-aos="fade-right"

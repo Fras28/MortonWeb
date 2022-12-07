@@ -88,14 +88,15 @@
   gap: 4rem;
   justify-content: space-evenly;
 }
-.infoAbMorty {
-}
+
 
 .textAb {
   margin-top: 5rem;
   font-size: 2rem;
   color: whitesmoke;
   font-weight: 700;
+  text-align: center;
+
 }
 
 .c1{
@@ -132,7 +133,7 @@
     align-items: center;
     gap: 2rem;
     height: 100%;
-    width: 95%;
+    width: 100%;
   }
   .aboutCards{
     justify-content: space-evenly;
@@ -141,5 +142,11 @@
   }
   .card {
     height: 400px;
+  }
+  .textAb{
+    font-size: 1.2rem;
+    margin: auto;
+    margin-top: 5rem;
+
   }
 }
