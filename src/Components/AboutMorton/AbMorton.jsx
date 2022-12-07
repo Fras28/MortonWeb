@@ -12,7 +12,7 @@ return (
       <p className="textAb">Un poco de informacion del funcionamiento y la adaptabilidad estetica de la aplicacion</p>
     </div>
     <div className="aboutCards">
-<div className="card"  data-aos="fade-right"
+<div className="card c1"  data-aos="fade-right"
      data-aos-offset="300"
      data-aos-easing="ease-in-sine">
   <div className="card-info">
@@ -23,7 +23,7 @@ return (
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
   </div>
 </div>
-<div className="card"  data-aos="fade-right"
+<div className="card c2"  data-aos="fade-right"
      data-aos-offset="300"
      data-aos-easing="ease-in-sine">
   <div className="card-info">
@@ -34,7 +34,7 @@ return (
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
   </div>
 </div>
-<div className="card"  data-aos="fade-right"
+<div className="card c3"  data-aos="fade-right"
      data-aos-offset="300"
      data-aos-easing="ease-in-sine">
   <div className="card-info">
@@ -45,7 +45,7 @@ return (
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
   </div>
 </div>
-<div className="card"  data-aos="fade-right"
+<div className="card c4"  data-aos="fade-right"
      data-aos-offset="300"
      data-aos-easing="ease-in-sine">
   <div className="card-info">

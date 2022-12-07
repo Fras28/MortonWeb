@@ -7,7 +7,7 @@
 }
 .card {
   width: 300px;
-  height: 400px;
+  height: 450px;
   position: relative;
   background: #ff930f54;
   background: linear-gradient(to top, #ff930f59 0%, #fffa5c 100%);
@@ -98,6 +98,34 @@
   font-weight: 700;
 }
 
+.c1{
+  background-image: url(../../assets/home.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+.c2{
+  background-image: url(../../assets/sinBag.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+ background-position: center;
+}
+.c3{
+  background-image: url(../../assets/conBag.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+ background-position: bottom;
+}
+.c4{
+  background-image: url(../../assets/bag.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+ background-position: center;
+}
+
+
+
 @media (max-width: 600px) {
   .morty {
     flex-direction: column;
@@ -112,6 +140,6 @@
     align-items: center;
   }
   .card {
-    height: 300px;
+    height: 400px;
   }
 }
