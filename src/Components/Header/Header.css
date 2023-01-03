@@ -1,24 +1,19 @@
 .Header {
      margin-top: -7%;
-    width: 95%;
+    width: 100%;
     transform: skewY(4deg) !important;
-    transform-origin: top right;
+    /* transform-origin: top right; */
     height: 60vh;
     background-color:#303c7e96;
     z-index: 1;
     padding-top: 12%;
-    padding-left: 5%;
     padding-bottom: 5%;
     display: flex;
   }
   .HeaderInfo{
     width: 60%;
-    height: 90%;
     transform: skewY(-4deg) !important;
     border-radius: 24px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
     margin: auto;
   }
 .titleHead{
@@ -37,6 +32,7 @@
   color: rgb(180, 211, 211);
   font-size:40px;
   font-weight: 600;
+  margin: auto;
 }
 
 
@@ -44,11 +40,12 @@
 
   @media (max-width: 600px) {
     .Header {
-        height: 95vh;
+        /* height: 95vh; */
         width: 100%;
         padding-left: 0;
-        padding-top: 5%; 
         margin-top: -15%;
+        display: flex;
+  
       }
     .HeaderInfo{
       width: 95%;
