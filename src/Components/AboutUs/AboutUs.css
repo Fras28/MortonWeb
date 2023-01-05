@@ -26,12 +26,30 @@
     display: none;
 }
 
+ol{
+  margin-top: 2rem;
+}
 
- 
+ li{
+  font-size: 2rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  margin-bottom: 1rem;
+  transform: skewY(4deg);
+  transform-origin: top right;
+ }
+ li path {
+  fill: green;
+ }
 
 @media (max-width: 900px) {
   .aboutUs {
       top: 400vh;
       width: 100%;
   }
+  li{
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+
+   }
 }
