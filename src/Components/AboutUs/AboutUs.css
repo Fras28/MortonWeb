@@ -10,7 +10,7 @@
     z-index: 0;
     transform: skewY(-4deg);
     transform-origin: top ;
-    overflow: scroll;
+    /* overflow: scroll; */
     
 }
 .aboutUs>p{
