@@ -33,14 +33,10 @@
   margin: auto;
 }
 
-@media (max-width: 1000px) {
-  .semicircle::before {
-    left: 89%;
-  }
-}
+
 @media (max-width: 600px) {
   .logoNav {
-    left: 78%;
+    left: 79.5%;
     margin-top: 28px;
   }
 
@@ -55,7 +51,7 @@
     z-index: 10;
     left: 86%;
     width: 80px;
-    height: 70px;
+    height: 80px;
     background: #2c3e50;
   }
 }
