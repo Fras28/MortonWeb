@@ -32,22 +32,23 @@
         padding: 0;
       }
       body{
-        background: #cee3f8;
         height: 200%;
       }
       #animation-bg{
-        width: 100%;
-        height:450vh;
-        background-position: top;
+        min-height: 200vh; 
       }
-
+      @media (max-width: 900px){
+        #animation-bg{
+        min-height: 700vh; 
+      }
+      }
     </style>
     <title>React App</title>
   </head>
   <body >
     <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id='animation-bg'>
-      <div id="root""></div>
+    <div  id='animation-bg'>
+      <div id="root"></div>
 
     </div>
     <!--

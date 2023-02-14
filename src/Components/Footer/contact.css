@@ -1,0 +1,20 @@
+.backFooter{
+    background-color: #3D4045;
+    padding-top: 5%;
+    padding-top: 2rem;
+    margin-top: -15px;
+    padding-bottom: 5%;
+}
+.titMail{
+    margin-bottom: 1rem;
+    color: white;
+}
+.backFooter > p {
+    color: white;
+    text-decoration: none;
+}
+
+@media (max-width: 900px){
+    .backFooter{
+    margin-top: -16px;}
+}
