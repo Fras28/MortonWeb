@@ -2,6 +2,7 @@
 import './App.css';
 import { AbMorton } from './Components/AboutMorton/AbMorton';
 import { AboutUs } from './Components/AboutUs/AboutUs';
+import { Footer } from './Components/Footer/contact';
 import { Header } from './Components/Header/Header';
 import { Nav } from './Components/Nav/Nav';
 
@@ -12,6 +13,7 @@ function App() {
 <Header/>
 <AbMorton/>
 <AboutUs/>
+<Footer/>
     </div>
   );
 }

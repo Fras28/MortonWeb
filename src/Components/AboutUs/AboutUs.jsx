@@ -5,6 +5,8 @@ import "aos/dist/aos.css";
 
 export const AboutUs = () => {
   return (
+    <div>
+
     <div className="aboutUs">
       <p>
         ¡Hola! ¿Te gustaría revolucionar la experiencia de tus clientes en tu
@@ -120,6 +122,7 @@ export const AboutUs = () => {
           Mayor rentabilidad de tu negocio
         </li>
       </ol>
+    </div>
     </div>
   );
 };
