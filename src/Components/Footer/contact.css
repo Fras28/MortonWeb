@@ -1,8 +1,7 @@
 .backFooter{
     background-color: #3D4045;
     padding-top: 5%;
-    padding-top: 2rem;
-    margin-top: -15px;
+    padding-top: 5rem;
     padding-bottom: 5%;
 }
 .titMail{
@@ -15,6 +14,5 @@
 }
 
 @media (max-width: 900px){
-    .backFooter{
-    margin-top: -16px;}
+
 }
