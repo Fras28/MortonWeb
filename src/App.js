@@ -7,7 +7,7 @@ import { Footer } from './Components/Footer/contact';
 import { Header } from './Components/Header/Header';
 import { Nav } from './Components/Nav/Nav';
 
-import Baires from "./assets/BairesLogo.jpeg"
+import Baires from "./assets/BairesLogo.png"
 import Coqui from "./assets/CoquiLogo.png"
 import Poulet from "./assets/PouletLogo.png"
 import ReyPollo from "./assets/ReyPolloLogo.png"
