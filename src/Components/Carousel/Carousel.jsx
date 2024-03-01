@@ -31,20 +31,20 @@ const Carousel = ({ logos }) => {
     ],
   };
 
-  return (
-    <div style={{ zIndex: 5 }}>
-      <h2 className='textAb'>Nuestros Clientes</h2>
-      <Slider {...settings}>
-        {logos.map((logo, index) => (
-          <div key={index} style={{ margin: '0', display: 'flex', justifyContent: 'center', padding: '0' }}>
-            <a href={logo.url} target='_blank'>
-              <img src={logo.img} alt={`Cliente ${index + 1}`} height="100px" />
-            </a>
-          </div>
-        ))}
-      </Slider>
-    </div>
-  );
+    return (
+      <div style={{ zIndex: 5 }}>
+        <h2 className='textAb'>Nuestros Clientes</h2>
+        <Slider {...settings}>
+          {logos.map((logo, index) => (
+            <div key={index} >
+              <a href={logo.url} target='_blank' className="logo-container">
+                <img src={logo.img} alt={`Cliente ${index + 1}`} height="100px" />
+              </a>
+            </div>
+          ))}
+        </Slider>
+      </div>
+    );
 };
 
 export default Carousel;

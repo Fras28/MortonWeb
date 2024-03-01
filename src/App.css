@@ -37,6 +37,18 @@ height: 100px;
 .ContCarouselImg{
   gap: 1rem;
 }
+
+.logo-container {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  /* Agrega cualquier otro estilo que desees para el contenedor de la imagen */
+}
+
+
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
