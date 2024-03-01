@@ -37,7 +37,9 @@ const Carousel = ({ logos }) => {
       <Slider {...settings}>
         {logos.map((logo, index) => (
           <div key={index} style={{ margin: '0', display: 'flex', justifyContent: 'center', padding: '0' }}>
-            <img src={logo} alt={`Cliente ${index + 1}`} height="100px" />
+            <a href={logo.url} target='_blank'>
+              <img src={logo.img} alt={`Cliente ${index + 1}`} height="100px" />
+            </a>
           </div>
         ))}
       </Slider>

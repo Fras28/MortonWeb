@@ -16,13 +16,24 @@ import MasDonto from "./assets/LogoDTM.png"
 import Morton from "./assets/MortonLogo.png"
 function App() {
   const logos = [
-    Baires,
-    Coqui,
-    Poulet,
-    ReyPollo,
-    Hudson,
-    MasDonto,
-    Morton
+    { url:"https://www.bairesbarbb.com.ar/",
+      img:Baires},
+      {url:"https://coqui-cakes.vercel.app/",
+      img:Coqui},
+      {url:"https://poulet-carnes.vercel.app/",
+        img:Poulet},
+        {url:"https://rey-del-pollo.vercel.app/",
+          img:ReyPollo},
+          {url:"https://hudsonbb.vercel.app/",
+            img:Hudson},
+            {url:"https://www.dontomascerveceria.com.ar/",
+              img:MasDonto},
+              {url:"https://catalogo-digital-morton.vercel.app/",
+                img:Morton},
+  
+
+
+    
     // Agrega más URLs según sea necesario
   ];
   return (
