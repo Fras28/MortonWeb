@@ -32,7 +32,7 @@ const Carousel = ({ logos }) => {
   };
 
     return (
-      <div style={{ zIndex: 5 }}>
+      <div className='noOverflow'>
         <h2 className='textAb'>Nuestros Clientes</h2>
         <Slider {...settings}>
           {logos.map((logo, index) => (

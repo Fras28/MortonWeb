@@ -40,7 +40,9 @@ height: 100px;
 .ContCarouselImg{
   gap: 1rem;
 }
-
+.noOverflow{
+  overflow: hidden;
+}
 .logo-container {
   margin: 0;
   display: flex;
