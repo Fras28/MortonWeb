@@ -1,6 +1,6 @@
 .morty {
   width: 100%;
-  height: 100vh;
+ padding-bottom: 4.5rem;
   display: flex;
   gap: 4rem;
   flex-direction: column;

@@ -32,8 +32,26 @@ export const AboutUs = () => {
           ¡No esperes más! Conviértete en el dueño de un negocio moderno y
           eficiente gracias a nuestra App.
         </p>
+        <h2>Facilidad de Navegación:</h2>
+    <p>Un catálogo digital organizado de manera clara y sencilla, facilitando la búsqueda de productos.</p>
 
-        <ul>
+    <h2>Pedidos a Través de WhatsApp:</h2>
+    <p>Los clientes podrán realizar pedidos directamente desde el catálogo a través de WhatsApp con solo unos pocos clics en un formato de simple legibilidad.</p>
+
+    <h2>Interacción Personalizada:</h2>
+    <p>Esta herramienta permitirá a tus clientes enviarte pedidos detallados y personalizados de manera más eficiente.</p>
+
+    <h2>Aumento de las Ventas:</h2>
+    <p>Al proporcionar una forma fácil y accesible para que los clientes realicen pedidos, puedes experimentar un aumento en las ventas y en la fidelización de clientes.</p>
+
+    <h2>Lista de Precios Actualizada:</h2>
+    <p>Mantén a tus clientes informados sobre los precios de tus productos de manera constante y sin esfuerzo.</p>
+
+    <h2>¿Te gustaría probarlo?</h2>
+    <p>Aquí abajo te dejo nuestra <strong>DEMO</strong>. ¡Déjame saber si estás interesado y estaré encantado de ayudarte a llevar tu [Tipo de Negocio] al siguiente nivel!</p>
+    <a href="https://catalogo-digital-morton.vercel.app/" target="_blank">Demo Catálogo Digital</a>
+
+        {/* <ul>
           <li className="benefits">
             <svg
               height="30"
@@ -134,7 +152,7 @@ export const AboutUs = () => {
             </svg>
             Mayor rentabilidad de tu negocio
           </li>
-        </ul>
+        </ul> */}
       </div>
     </div>
   );
