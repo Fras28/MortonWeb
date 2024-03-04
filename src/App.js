@@ -14,6 +14,7 @@ import ReyPollo from "./assets/ReyPolloLogo.png"
 import Hudson from "./assets/HudsonLogo.png"
 import MasDonto from "./assets/LogoDTM.png"
 import Morton from "./assets/MortonLogo.png"
+import { AbMortonBack } from './Components/AboutMorton/AbMortonBack';
 function App() {
   const logos = [
     { url:"https://www.bairesbarbb.com.ar/",
@@ -44,6 +45,7 @@ function App() {
 <Carousel logos={logos}  />
 
 <AbMorton/>
+<AbMortonBack/>
 <AboutUs/>
 <Footer/>
     </div>

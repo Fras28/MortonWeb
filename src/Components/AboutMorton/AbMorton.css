@@ -44,11 +44,6 @@
   transition: transform 1s cubic-bezier(0.785, 0.135, 0.15, 0.86);
 }
 
-.card-bio p {
-  font-size: 16px;
-  font-weight: 600;
-  line-height: 1.5em;
-}
 
 /*Text*/
 .title {
@@ -106,8 +101,17 @@
   color: whitesmoke;
   font-weight: 700;
   text-align: center;
+}
+
+.textAb2 {
+  margin-top: 5rem;
+  font-size: 5rem;
+color: #23153C;
+  font-weight: 700;
+  text-align: center;
 
 }
+
 
 .c1{
   background-image: url(../../assets/home.jpg);
@@ -134,12 +138,45 @@
   background-repeat: no-repeat;
  background-position: center;
 }
+.c5{
+  background-image: url(../../assets/BackStrapi1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+ background-position: center;
+ width: 600px;
+ height: 450px;
+}
+.c6{
+  background-image: url(../../assets/backStrapi2.png);
+  background-size:contain;
+  background-repeat: no-repeat;
+ background-position: center;
+ background-color: #1C1B26;
+}
+.c7{
+  background-image: url(../../assets/backStrapi3.png);
+  background-size:cover;
+  background-repeat: no-repeat;
+ background-position: center;
+ width: 600px;
+ height: 450px;
+}
+.c8{
+  background-image: url(../../assets/CreateStrapi.png);
+  background-size:cover;
+  background-repeat: no-repeat;
+ background-position: center;
+ width: 600px;
+ height: 450px;
+}
+
 .textInfoCard{
   padding: .5rem;
   background-color: black;
   border-radius: 24px;
   color: white;
 }
+
 
 
 
@@ -164,5 +201,15 @@
     margin: auto;
     margin-top: 5rem;
 
+  }
+  .textAb2{
+    font-size: 1.5rem;
+    margin: auto;
+    color: white;
+    margin-top: 5rem;
+  }
+  .c5,.c6,.c7,.c8,.c9{
+    width: 300px;
+    height: 450px;
   }
 }

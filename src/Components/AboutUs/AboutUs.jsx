@@ -8,33 +8,31 @@ export const AboutUs = () => {
     <div>
       <div className="aboutUs-container">
       <div className="aboutUs-content" data-aos="fade-up" data-aos-duration="800">
-          <h1>¿Por qué elegir Morton Soluciones?</h1>
+  <h1>¿Por qué elegir Morton Soluciones?</h1>
 
-          <p>
-            Transforma la experiencia en tu comercio con nuestra aplicación
-            exclusiva. En Morton Soluciones, nos enorgullece ofrecerte una
-            herramienta diseñada para potenciar la atención al cliente y
-            agilizar procesos.
-          </p>
+  <p>
+    Transforma la experiencia en tu comercio con nuestra aplicación
+    exclusiva. En Morton Soluciones, nos enorgullece ofrecer una herramienta
+    diseñada para potenciar la atención al cliente y agilizar procesos.
+  </p>
 
-          <p>
-            Imagina la posibilidad de que tus clientes exploren tu catálogo,
-            realicen pedidos directamente desde la aplicación. Esto no
-            solo agiliza el proceso, sino que también permite a tus clientes
-            tomar decisiones rápidas y cómodas desde la comodidad de su celular.
-          </p>
+  <p>
+    Imagina la posibilidad de que tus clientes exploren tu catálogo,
+    realicen pedidos directamente desde la aplicación. Esto no solo agiliza
+    el proceso, sino que también les permite tomar decisiones rápidas y
+    cómodas desde la comodidad de su celular.
+  </p>
 
-          <p>
-            Optimiza el tiempo en operaciones sin consumir y aumenta la
-            eficiencia para impulsar las ganancias de tu negocio de manera
-            significativa.
-          </p>
+  <p>
+    Optimiza el tiempo en operaciones sin consumir y aumenta la eficiencia
+    para impulsar las ganancias de tu negocio de manera significativa.
+  </p>
 
-          <p>
-            ¡No pierdas más tiempo! Únete a la revolución de los negocios
-            modernos y eficientes con Morton Soluciones.
-          </p>
-        </div>
+  <p>
+    ¡No pierdas más tiempo! Únete a la revolución de los negocios modernos
+    y eficientes con Morton Soluciones.
+  </p>
+</div>
 
         <div className="aboutUs-features" data-aos="fade-up" data-aos-duration="800">
           <h2>Beneficios que Ofrecemos:</h2>
