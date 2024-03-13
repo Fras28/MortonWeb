@@ -16,7 +16,7 @@ return (
      data-aos-offset="300"
      data-aos-easing="ease-in-sine">
   <div className="card-info">
-    <p className="title">Landing Page</p>
+    <p className="title">Admin Panel</p>
   </div>
   <div className="card-bio">
     <p className="textInfoCard">Seguridad Confiable: Nuestra plataforma, impulsada por el robusto sistema de login de Strapi, garantiza una autenticación segura para tus usuarios. Protegemos sus cuentas y datos con una sólida infraestructura de seguridad.
@@ -24,21 +24,12 @@ return (
 Experiencia de Usuario Personalizada: ofrecemos una experiencia de usuario personalizada al permitir la gestión de roles y permisos de manera flexible. Adaptamos el acceso y la interacción según las necesidades específicas de cada usuario. </p>
   </div>
 </div>
-{/* <div className="card c6"  data-aos="fade-left"
-     data-aos-offset="300"
-     data-aos-easing="ease-in-sine">
-  <div className="card-info">
-    <p className="title">Secciones</p>
-  </div>
-  <div className="card-bio">
-    <p className="textInfoCard">La aplicación cuenta con pantallas personalizadas para diferentes secciones. En la parte superior se encuentra un carrusel que facilita la búsqueda de productos. Además, hay espacio disponible para la publicidad y/o imágenes personalizadas.</p>
-  </div>
-</div> */}
+
 <div className="card c7"  data-aos="fade-left"
      data-aos-offset="300"
      data-aos-easing="ease-in-sine">
   <div className="card-info">
-    <p className="title">Funciones</p>
+    <p className="title">Estructura Intuitiva</p>
   </div>
   <div className="card-bio">
     <p className="textInfoCard">Gestión Eficiente: La interfaz de Content Manager en Strapi centraliza la gestión de contenido, brindando una experiencia eficiente para agregar y organizar información desde un único lugar.
