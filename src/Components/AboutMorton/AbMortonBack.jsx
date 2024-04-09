@@ -19,7 +19,7 @@ return (
     <p className="title">Admin Panel</p>
   </div>
   <div className="card-bio">
-    <p className="textInfoCard">Seguridad Confiable: Nuestra plataforma, impulsada por el robusto sistema de login de Strapi, garantiza una autenticación segura para tus usuarios. Protegemos sus cuentas y datos con una sólida infraestructura de seguridad.
+    <p className="textInfoCard  b1 ">Seguridad Confiable: Nuestra plataforma, impulsada por el robusto sistema de login de Strapi, garantiza una autenticación segura para tus usuarios. Protegemos sus cuentas y datos con una sólida infraestructura de seguridad.
 
 Experiencia de Usuario Personalizada: ofrecemos una experiencia de usuario personalizada al permitir la gestión de roles y permisos de manera flexible. Adaptamos el acceso y la interacción según las necesidades específicas de cada usuario. </p>
   </div>
@@ -32,7 +32,7 @@ Experiencia de Usuario Personalizada: ofrecemos una experiencia de usuario perso
     <p className="title">Estructura Intuitiva</p>
   </div>
   <div className="card-bio">
-    <p className="textInfoCard">Gestión Eficiente: La interfaz de Content Manager en Strapi centraliza la gestión de contenido, brindando una experiencia eficiente para agregar y organizar información desde un único lugar.
+    <p className="textInfoCard b2" >Gestión Eficiente: La interfaz de Content Manager en Strapi centraliza la gestión de contenido, brindando una experiencia eficiente para agregar y organizar información desde un único lugar.
 
 Personalización Intuitiva: Strapi ofrece una interfaz altamente personalizable, permitiendo a los usuarios adaptar la estructura de datos de manera intuitiva para una experiencia única y ajustada a sus necesidades.
 
@@ -46,11 +46,9 @@ Organización Clara: La interfaz limpia y organizada de Content Manager facilita
     <p className="title">Creacion de Articulos</p>
   </div>
   <div className="card-bio">
-    <p className="textInfoCard">Gestión de Contenido Eficiente: Gracias a Strapi, facilitamos una gestión de contenido sin complicaciones. Los usuarios pueden crear objetos de manera rápida y sencilla con formularios intuitivos, personalizando eficientemente la estructura de su contenido.
-
-Interfaz Intuitiva: Nuestra plataforma presenta una interfaz limpia y organizada para la creación de objetos. Incluso aquellos sin experiencia técnica profunda pueden editar y actualizar contenido de manera sencilla gracias a la simplicidad del proceso.
-
-Flexibilidad Estructural: Strapi ofrece flexibilidad al permitir la creación de relaciones entre objetos. Esto concede a los usuarios un control total sobre la estructura y presentación de su contenido, adaptándose ágil y eficazmente a sus necesidades específicas.</p>
+    <p className="textInfoCard b3">Gestión Eficiente: Strapi simplifica la creación y personalización de contenido de forma rápida y sencilla.<br/>
+Interfaz Intuitiva: Nuestra plataforma ofrece una experiencia de edición de contenido simple y accesible para usuarios de todos los niveles.<br/>
+Flexibilidad Estructural: Strapi permite a los usuarios crear relaciones entre objetos, brindando control total sobre la estructura del contenido y adaptándose a diversas necesidades.</p>
   </div>
 </div>
     </div>

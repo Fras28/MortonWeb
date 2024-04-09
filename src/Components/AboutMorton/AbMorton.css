@@ -175,6 +175,7 @@ color: #23153C;
   background-color: black;
   border-radius: 24px;
   color: white;
+  
 }
 
 
@@ -211,5 +212,40 @@ color: #23153C;
   .c5,.c6,.c7,.c8,.c9{
     width: 300px;
     height: 450px;
+  }
+  .c7 {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    background-image: url(../../assets/backStrapi3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  .card-bio {
+    padding: 1.8em;
+    text-align: center;
+  }
+ 
+  .b1{
+    margin-bottom: 4rem; /* Ajusta este valor según sea necesario */
+    margin-top: -5rem; /* Ajusta este valor negativo según sea necesario */
+    font-size: 14px;
+  }
+  .b2{
+    margin-bottom: 4rem; /* Ajusta este valor según sea necesario */
+    margin-top: -10rem; /* Ajusta este valor negativo según sea necesario */
+    font-size: 14px;
+  }
+  .b3{
+    margin-bottom: 4rem; /* Ajusta este valor según sea necesario */
+    margin-top: -5rem; /* Ajusta este valor negativo según sea necesario */
+    font-size: 14px;
+  }
+  .b4{
+    margin-bottom: 4rem; /* Ajusta este valor según sea necesario */
+    margin-top: -3rem; /* Ajusta este valor negativo según sea necesario */
+
   }
 }

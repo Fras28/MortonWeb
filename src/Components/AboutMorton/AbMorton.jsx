@@ -39,7 +39,7 @@ return (
     <p className="title">Funciones</p>
   </div>
   <div className="card-bio">
-    <p className="textInfoCard">En las secciones de la aplicación, puedes ver información sobre tus productos, como su nombre, valor y una breve descripción. También puedes agregar productos al carro de compras y acceder a tu mochila/carrito de compra a través del botón 'Ver pedido'</p>
+    <p className="textInfoCard b4">En las secciones de la aplicación, puedes ver información sobre tus productos, como su nombre, valor y una breve descripción. También puedes agregar productos al carro de compras y acceder a tu mochila/carrito de compra a través del botón 'Ver pedido'</p>
   </div>
 </div>
 <div className="card c4"  data-aos="fade-right"
@@ -49,7 +49,7 @@ return (
     <p className="title">Carro de compras</p>
   </div>
   <div className="card-bio">
-    <p className="textInfoCard">Desde la sección de tu mochila/carrito de compras, podrás ver y modificar el pedido que has armado previamente. También podrás ver el valor total de tu pedido y generar una comanda directamente desde la aplicación</p>
+    <p className="textInfoCard ">Desde la sección de tu mochila/carrito de compras, podrás ver y modificar el pedido que has armado previamente. También podrás ver el valor total de tu pedido y generar una comanda directamente desde la aplicación</p>
   </div>
 </div>
     </div>
