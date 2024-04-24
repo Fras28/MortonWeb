@@ -9,7 +9,7 @@ export const AbMortonBack = ()=>{
 return (
   <div className="morty"> 
 
-<h2 className="textAb">Potenciando la Seguridad y Eficiencia con Strapi en la Gestión de Información </h2>
+<h2 className="textAbColor">Potenciando la Seguridad y Eficiencia con Strapi en la Gestión de Información </h2>
 
     <div className="aboutCards">
 <div className="card c5"  data-aos="fade-left"

@@ -102,6 +102,13 @@
   font-weight: 700;
   text-align: center;
 }
+.textAbColor{
+  margin-top: 5rem;
+  font-size: 5rem;
+  color: #22143C;
+  font-weight: 700;
+  text-align: center;
+}
 
 .textAb2 {
   margin-top: 5rem;
@@ -201,8 +208,16 @@ color: #23153C;
     font-size: 1.5rem;
     margin: auto;
     margin-top: 5rem;
-
   }
+  .textAbColor{
+    font-size: 1.5rem;
+    margin: auto;
+    color: whitesmoke;
+    font-weight: 700;
+    text-align: center;
+  }
+
+
   .textAb2{
     font-size: 1.5rem;
     margin: auto;
